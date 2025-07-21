@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<article>
+  <h2>{{ page.title }}</h2>
+  <p><em>Published on {{ page.date | date: "%B %d, %Y" }}</em></p>
+
+  <audio controls preload="none">
+    <source src="{{ page.audio_url }}" type="{{ page.audio_type }}">
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="episode-description">
+    {{ content }}
+  </div>
+</article>
