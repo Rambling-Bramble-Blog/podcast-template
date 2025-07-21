@@ -9,7 +9,7 @@ markdown: kramdown
 collections:
   episodes:
     output: true
-    permalink: podcast/episodes/:title/
+    permalink: episodes/:title/
 
 defaults:
   - scope:
