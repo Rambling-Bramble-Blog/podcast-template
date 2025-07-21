@@ -21,3 +21,6 @@ defaults:
 include:
   - feed.xml
   - _episodes
+
+plugins:
+  - jekyll-feed
