@@ -1,4 +1,13 @@
 title: Rambling Bramble Podcast
-description: Stories and words from the Rambling Bramble Blog
-theme: jekyll-text-theme
-baseurl: "" # leave empty unless using a subpath
+description: "A cozy corner for stories, rambles, and reflection"
+baseurl: ""
+url: "https://Rambling-Bramble-Podcast.github.io"
+
+theme: null
+markdown: kramdown
+collections:
+  episodes:
+    output: true
+    permalink: /episodes/:title/
+
+permalink: /:title/
