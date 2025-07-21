@@ -1,0 +1,27 @@
+body {
+  font-family: Georgia, serif;
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fdfcf9;
+  color: #222;
+}
+
+a {
+  color: #446;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.9em;
+  color: #666;
+}
+
+audio {
+  width: 100%;
+  margin-top: 1rem;
+}
