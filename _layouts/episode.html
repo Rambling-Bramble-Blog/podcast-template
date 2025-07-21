@@ -1,19 +1,20 @@
----
-layout: default
----
-
-<article class="episode">
-  <h1>{{ page.title }}</h1>
-  <p><strong>Published:</strong> {{ page.date | date: "%B %-d, %Y" }}</p>
-
-  {% if page.audio_url %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
+</head>
+<body>
+  <main>
+    <h1>{{ page.title }}</h1>
     <audio controls>
       <source src="{{ page.audio_url }}" type="{{ page.audio_type }}">
       Your browser does not support the audio element.
     </audio>
-  {% endif %}
-
-  <div class="episode-description">
-    {{ content }}
-  </div>
-</article>
+    <div class="episode-content">
+      {{ content }}
+    </div>
+  </main>
+</body>
+</html>
