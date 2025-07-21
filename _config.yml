@@ -3,13 +3,13 @@ description: "A cozy corner for stories, rambles, and reflections."
 baseurl: "/podcast"
 url: "https://rambling-bramble-blog.github.io"
 
+theme: null
+markdown: kramdown
+
 collections:
   episodes:
     output: true
     permalink: /episodes/:title/
-
-theme: null
-markdown: kramdown
 
 defaults:
   - scope:
@@ -20,3 +20,4 @@ defaults:
 
 include:
   - feed.xml
+  - _episodes
