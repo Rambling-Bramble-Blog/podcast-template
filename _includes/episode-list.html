@@ -1,7 +1,7 @@
 <ul>
   {% for episode in site.episodes reversed %}
     <li>
-      <a href="{{ episode.url }}">{{ episode.title }}</a>
+      <a href="{{ site.baseurl }}{{ episode.url }}">{{ episode.title }}</a>
       <small>({{ episode.date | date: "%B %d, %Y" }})</small>
     </li>
   {% endfor %}
