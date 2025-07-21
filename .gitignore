@@ -1,0 +1,16 @@
+# Node.js (if using static site tools)
+node_modules/
+*.log
+
+# macOS system files
+.DS_Store
+
+# Jekyll or other static site build output
+_site/
+.cache/
+dist/
+build/
+
+# General editor files
+.vscode/
+*.swp
