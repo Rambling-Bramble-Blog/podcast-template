@@ -9,7 +9,7 @@ markdown: kramdown
 collections:
   episodes:
     output: true
-    permalink: {{ baseurl }}/episodes/:title/
+    permalink: podcast/episodes/:title/
 
 permalink: /:title/
 
