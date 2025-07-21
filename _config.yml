@@ -1,13 +1,24 @@
 title: Rambling Bramble Podcast
-description: "A cozy corner for stories, rambles, and reflection"
+description: "A cozy corner for stories, rambles, and reflections."
 url: "https://rambling-bramble-blog.github.io"
 baseurl: "/podcast"
 
 theme: null
 markdown: kramdown
+
 collections:
   episodes:
     output: true
     permalink: /episodes/:title/
 
 permalink: /:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: episodes
+    values:
+      layout: episode
+
+include:
+  - feed.xml
