@@ -1,7 +1,7 @@
 title: Rambling Bramble Podcast
 description: "A cozy corner for stories, rambles, and reflection"
-baseurl: ""
-url: "https://Rambling-Bramble-Podcast.github.io"
+url: "https://rambling-bramble-blog.github.io"
+baseurl: "/podcast"
 
 theme: null
 markdown: kramdown
