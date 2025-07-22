@@ -10,3 +10,8 @@ title: Rambling Bramble Podcast
   <h2>Episodes</h2>
   {% include episode-list.html %}
 </section>
+
+<section>
+  <h3>RSS Feed Link</h3>
+  {% include feed.xml %}
+</section>
