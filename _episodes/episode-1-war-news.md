@@ -1,6 +1,8 @@
 ---
 layout: episode
 title: "Episode 1: War News"
+itunes_author: "Rambling Bramble Blog"
+itunes_summary: {{ episode.content | strip_html | strip_newlines | xml_escape }}
 date: 2025-07-21 12:00:00 +0000
 audio_url: "https://archive.org/download/rambling-bramble-podcast/War-News.mp3"
 audio_type: "audio/mpeg"
