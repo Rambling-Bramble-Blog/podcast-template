@@ -24,8 +24,8 @@ layout: none
   {% for episode in sorted_episodes %}
   <item>
     <title>{{ episode.title | xml_escape }}</title>
-    <description>{{ episode.content | strip_html | xml_escape }}</description>
-    <pubDate>{{ episode.date | date_to_rfc822 }}</pubDate>
+    <description>{{ episode.content | xml_escape }}</description>
+    <pubDate>{{ episode.date | date_to_rfc822 | xml_escape }}</pubDate>
     <guid>{{ site.url }}{{ site.baseurl }}{{ episode.url }}</guid>
     <link>{{ site.url }}{{ site.baseurl }}{{ episode.url }}</link>
     <enclosure url="{{ episode.audio_url }}" length="{{ episode.audio_size }}" type="{{ episode.audio_type }}" />
