@@ -13,7 +13,7 @@ layout: none
   <description>{{ site.description | xml_escape }}</description>
   <itunes:summary>{{ site.description | xml_escape }}</itunes:summary>
   <itunes:explicit>no</itunes:explicit>
-  <itunes:category text="Society /& Culture">
+  <itunes:category text="Society &amp; Culture">
     <itunes:category text="Personal Journals"/>
   </itunes:category>
   <atom:link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self" type="application/rss+xml"/>
