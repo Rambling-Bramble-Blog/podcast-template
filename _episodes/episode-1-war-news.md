@@ -8,5 +8,9 @@ audio_size: 5242880
 
 Welcome to the first episode of the Rambling Bramble Podcast. In this ramble, I read a story written some time ago. I hope you enjoy "War News".
 
+<hr>
+
 Inspiration: Instagram Profile @writing.promt.s 
+
 Prompt:
+
