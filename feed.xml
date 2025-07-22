@@ -25,7 +25,8 @@ layout: none
   <itunes:category text="Arts">
     <itunes:category text="Performing Arts"/>
   </itunes:category>
-  <itunes:category text="Philosophy"/>
+  <itunes:category text="Society &amp; Culture">
+    <itunes:category text="Philosophy"/>
   </itunes:category>
   <atom:link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self" type="application/rss+xml"/>
   <lastBuildDate>{{ site.time | date_to_rfc822 | xml_escape }}</lastBuildDate>
