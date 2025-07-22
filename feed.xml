@@ -18,7 +18,7 @@ layout: none
   </itunes:category>
   <atom:link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self" type="application/rss+xml"/>
   <lastBuildDate>{{ site.time | date_to_rfc822 | xml_escape }}</lastBuildDate>
-  <itunes:image href="{{ site.url }}{{ site.baseurl }}/assets/logo.jpg" />
+  <itunes:image href="{{ site.url }}{{ site.baseurl }}/assets/logo.jpeg" />
   
   {% assign sorted_episodes = site.episodes | sort: "date" | reverse %}
   {% for episode in sorted_episodes %}
