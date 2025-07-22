@@ -20,7 +20,7 @@ defaults:
 
 include:
   - '_episodes/'
-  - 'feed.xml'
+  - 'https://github.com/Rambling-Bramble-Blog/podcast/feed.xml'
 
 plugins:
   - jekyll-feed
