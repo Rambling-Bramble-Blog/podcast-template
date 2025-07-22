@@ -12,7 +12,7 @@ Below is a list of all detected episodes in the `_episodes` collection.
 <ul>
   {% for episode in episodes %}
     <li>
-      <a href="{{ episode.url }}">{{ episode.title }}</a>
+      <a href="{{ site.baseurl }}{{ episode.url }}">{{ episode.title }}</a>
       — {{ episode.date | date: "%B %d, %Y" }}
     </li>
   {% else %}
