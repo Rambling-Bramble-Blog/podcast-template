@@ -1,8 +1,6 @@
 ---
 layout: episode
 title: "Episode 1: War News"
-itunes_author: "Rambling Bramble Blog"
-itunes_summary: {{ episode.content | strip_html | strip_newlines | xml_escape }}
 date: 2025-07-21 12:00:00 +0000
 audio_url: "https://archive.org/download/rambling-bramble-podcast/War-News.mp3"
 audio_type: "audio/mpeg"
@@ -18,3 +16,4 @@ Inspiration: Instagram Profile @writing.promt.s
 
 Prompt:
 
+The war had been going on for over 100 years now, not that you had ever seen it, living in the bunker your entire life. But, one day, the news war reporter finally says "I can't do this anymore. Everything is fine, they're lying, they're-", and then the signal cuts out.
