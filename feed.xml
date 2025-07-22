@@ -37,7 +37,6 @@ layout: none
   <item>
     <title>{{ episode.title | xml_escape }}</title>
     <itunes:author>{{ episode.itunes_author | xml_escape }}</itunes:author>
-    <content:encoded><![CDATA[{{ episode.content }}]]></content:encoded>
     <description>{{ episode.content | strip_html | strip_newlines | xml_escape }}</description>
     <itunes:summary>{{ episode.itunes_summary | xml_escape }}</itunes:summary>
     <pubDate>{{ episode.date | date_to_rfc822 | xml_escape }}</pubDate>
