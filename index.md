@@ -13,5 +13,7 @@ title: Rambling Bramble Podcast
 
 <section>
   <h3>RSS Feed Link</h3>
-  {% include feed.xml %}
+  <p>
+    <a href="https://rambling-bramble-blog.github.io/podcast/feed.xml">Subscribe to the RSS feed</a>
+  </p>
 </section>
