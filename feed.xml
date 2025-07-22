@@ -14,7 +14,7 @@ layout: none
   <itunes:summary>{{ site.description | xml_escape }}</itunes:summary>
   <itunes:explicit>no</itunes:explicit>
   <itunes:category text="Society &amp; Culture">
-    <itunes:category text="Personal Journals"/> {{ xml_escape }}
+    <itunes:category text="Personal Journals"/>
   </itunes:category>
   <atom:link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self" type="application/rss+xml"/>
   <lastBuildDate>{{ site.time | date_to_rfc822 | xml_escape }}</lastBuildDate>
@@ -28,7 +28,7 @@ layout: none
     <pubDate>{{ episode.date | date_to_rfc822 | xml_escape }}</pubDate>
     <guid>{{ site.url }}{{ site.baseurl }}{{ episode.url }}</guid>
     <link>{{ site.url }}{{ site.baseurl }}{{ episode.url }}</link>
-    <enclosure url="{{ episode.audio_url }}" length="{{ episode.audio_size }}" type="{{ episode.audio_type }}" />
+    <enclosure url="{{ episode.audio_url | xml_escape }}" length="{{ episode.audio_size }}" type="{{ episode.audio_type }}" />
     <itunes:duration>{{ episode.duration }}</itunes:duration>
     <itunes:explicit>no</itunes:explicit>
   </item>
