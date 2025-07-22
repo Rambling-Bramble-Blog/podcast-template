@@ -19,8 +19,8 @@ defaults:
       layout: episode
 
 include:
-  - _episodes
-  - feed.xml
+  - '_episodes/'
+  - 'feed.xml'
 
 plugins:
   - jekyll-feed
