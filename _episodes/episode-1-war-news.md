@@ -6,4 +6,7 @@ audio_type: "audio/mpeg"
 audio_size: 5242880
 ---
 
-Welcome to the first episode of the Rambling Bramble Podcast. In this ramble, we wander through thoughts about stories, silence, and sunlight.
+Welcome to the first episode of the Rambling Bramble Podcast. In this ramble, I read a story written some time ago. I hope you enjoy "War News".
+
+Inspiration: Instagram Profile @writing.promt.s 
+Prompt:
