@@ -5,11 +5,11 @@ owner_name: "" # Your NAME or PEN NAME
 owner_email: "" # Your EMAIL
 type: "" # episodic OR serial (serial means that there is an order in which the podcasts should be listened).
 explicit_bool: "" # yes OR no (in lowercase)
-itunes_summary: {{ site.description }}
+itunes_summary: {{ site.description }} # This will match what you write in "description" on line 2 (above)
 baseurl: "/podcast"
 url: ""
 
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: pages-themes/minimal@v0.2.0 # You can change this to any other GitHubJekyll Theme you may prefer
 markdown: kramdown
 
 collections:
