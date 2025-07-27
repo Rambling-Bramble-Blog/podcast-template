@@ -1,9 +1,9 @@
-title: Rambling Bramble Podcast
-description: A chaotic podcast filled with stories, rambles, and reflections.
-itunes_author: "Rambling Bramble Blog"
+title: "" # Your Podcast's Title 
+description: "" # Your Podcast's Description
+itunes_author: "" # Your Name or Pen-Name
 itunes_summary: {{ site.description }}
 baseurl: "/podcast"
-url: "https://rambling-bramble-blog.github.io"
+url: ""
 
 theme: null
 markdown: kramdown
@@ -20,7 +20,7 @@ defaults:
     values:
       layout: episode
 
-include:
+include: # Any files to include that are not already in "_includes"
   - '_episodes/'
 
 plugins:
