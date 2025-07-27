@@ -9,7 +9,7 @@ itunes_summary: {{ site.description }}
 baseurl: "/podcast"
 url: ""
 
-theme: null
+remote_theme: pages-themes/minimal@v0.2.0
 markdown: kramdown
 
 collections:
@@ -29,3 +29,4 @@ include: # Any files to include that are not already in "_includes"
 
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
