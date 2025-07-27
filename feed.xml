@@ -9,25 +9,17 @@ layout: none
   <title>{{ site.title | xml_escape }}</title>
   <link>{{ site.url }}{{ site.baseurl }}/</link>
   <language>en-us</language>
-  <itunes:author>Rambling Bramble Blog</itunes:author>
   <itunes:owner>
-    <itunes:name>Rambling Bramble Blog</itunes:name>
-    <itunes:email>rambling.bramble.blog@gmail.com</itunes:email>
+    <itunes:name>{{ site.owner_name }}</itunes:name>
+    <itunes:email>{{ site.owner_email }}</itunes:email>
   </itunes:owner>
-  <itunes:type>episodic</itunes:type>
-  <copyright>Copyright {{ site.time | date: "%Y" }} Rambling Bramble Blog</copyright>
+  <itunes:type>{{ site.type }}</itunes:type>
+  <copyright>Copyright {{ site.time | date: "%Y" }} {{ site.owner_name}}</copyright>
   <description>{{ site.description | xml_escape }}</description>
   <itunes:summary>{{ site.description | xml_escape }}</itunes:summary>
   <itunes:author>{{ site.itunes_author | xml_escape }}</itunes:author>
-  <itunes:explicit>yes</itunes:explicit>
-  <itunes:category text="Society &amp; Culture">
-    <itunes:category text="Personal Journals"/>
-  </itunes:category>
-  <itunes:category text="Arts">
-    <itunes:category text="Performing Arts"/>
-  </itunes:category>
-  <itunes:category text="Society &amp; Culture">
-    <itunes:category text="Philosophy"/>
+  <itunes:explicit>{{ site.explicit_bool }}</itunes:explicit>
+  <itunes:category text="">
   </itunes:category>
   <atom:link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self" type="application/rss+xml"/>
   <lastBuildDate>{{ site.time | date_to_rfc822 | xml_escape }}</lastBuildDate>
