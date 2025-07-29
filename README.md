@@ -11,4 +11,4 @@ Files in need of edits:
 - LICENSE.md (Add your specific information, but keep in mind what the audio file may be licensed under--especially if using the InternetArchive for file hosting.)
 
 Enjoy!
-If you have any questions, comments, or concerns: please contact rambling.bramble.blog@gmail.com or comment/message me via GitHub (I will be slow to respond, but will respond...eventually).
+If you have any questions, comments, or concerns about the Podcast Template for GitHub Pages: please contact rambling.bramble.blog@gmail.com or comment/message me via GitHub (I will be slow to respond, but will respond...eventually).
