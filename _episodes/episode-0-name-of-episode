@@ -1,7 +1,7 @@
 ---
 layout: episode # as defined in the /_layouts folder
-title: ""
-date: 0000-00-00 00:00:00 +0000 YYYY-MM-DD hh:mm:ss
+title: "" # The podcast episode Title
+date: 0000-00-00 00:00:00 +0000 # YYYY-MM-DD hh:mm:ss
 audio_url: "" # an mp3 file link that does not result in a download
 audio_type: "audio/mpeg"
 audio_size: 000000  # You can update this to the real size in bytes
