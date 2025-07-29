@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Rambling Bramble Podcast
+title: {{site.title}}
 ---
 
 <h1>{{ site.title }}</h1>
@@ -14,10 +14,12 @@ title: Rambling Bramble Podcast
 <section>
   <h3>RSS Feed Links</h3>
   <p>
-    <a href="https://rambling-bramble-blog.github.io/podcast/feed.xml">Direct RSS Feed</a><br>
-    <a href="https://pca.st/goiydyu7">Pocket Casts RSS Feed</a><br>
-    <a href="https://podcasts.apple.com/us/podcast/rambling-bramble-podcast/id1828215244">Apple Podcasts</a><br>
-    <a href="https://podcastindex.org/podcast/7420725">Podcast Index</a><br>
+    <a href="">Direct RSS Feed</a><br>
+    <a href="">Pocket Casts RSS Feed</a><br>
+    <a href="">Apple Podcasts</a><br>
+    <a href="">Amazon Music</a><br>
+    <a href="">Pandora Music</a><br>
+    <a href="">Podcast Index</a><br>
     
   </p>
 </section>
