@@ -9,7 +9,7 @@ itunes_summary: {{ site.description }} # This will match what you write in "desc
 baseurl: "" # /your-repository-name
 url: "" # your-github-user-name.github.io
 
-remote_theme: pages-themes/minimal@v0.2.0 # You can change this to any other GitHubJekyll Theme you may prefer
+theme: null
 markdown: kramdown
 
 collections:
@@ -29,4 +29,3 @@ include: # Any files to include that are not already in "_includes"
 
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
