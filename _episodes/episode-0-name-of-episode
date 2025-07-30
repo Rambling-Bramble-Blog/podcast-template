@@ -1,14 +1,14 @@
 ---
-layout: episode # as defined in the /_layouts folder
-title: "" # The podcast episode Title
-date: 0000-00-00 00:00:00 +0000 # YYYY-MM-DD hh:mm:ss
-audio_url: "" # an mp3 file link that does not result in a download
+layout: episode
+title: "Episode 0: Introduction"
+date: 2025-07-30 17:40:28 +0000
+audio_url: "https://example.com/audio/episode0.mp3"
 audio_type: "audio/mpeg"
-audio_size: 000000  # You can update this to the real size in bytes
-duration: "00:00"    # Optional but helpful for RSS readers mm:ss format
+audio_size: 12345678
+duration: "12:34"
 ---
 
-Episode description text goes here.
+Welcome to Episode 0! Here we introduce the podcast and what you can expect from future episodes.
 
 <hr>
 
