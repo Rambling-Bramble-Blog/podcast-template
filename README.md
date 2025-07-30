@@ -10,6 +10,8 @@ Further files have been added as examples on how to use this template.
 
 This is intended to be used with The Internet Archive (https://archive.org/)
 
+<hr>
+
 # Using the Internet Archive
 
 1. Create an account on archive.org (Found in upper-right corner).
@@ -49,6 +51,8 @@ This is intended to be used with The Internet Archive (https://archive.org/)
 
 11. More Options (I put nothing here, but use it if you like!)
 
+<hr>
+
 # Using This Template
 
 Files in need of edits:
@@ -73,6 +77,7 @@ Files in need of edits:
 7. "duration" is the length of your episode in minutes and seconds.
 8. The "body" of the page (everything after the second "---"): Put whatever you want here and it will appear as your episode description. Keep in mind, the syling (html and md) will be removed on the streaming platforms, so extra spaces (" ") or pipes/vertical bars and spaces (" | ") work well to create separation. (I chose to use extra spaces.)
 
+<hr>
 
 # Submitting your Podcasts!
 
@@ -88,6 +93,8 @@ Here are a few options for places to submit your podcast (I suggest reading the 
 5. <a href="https://www.simplecast.com/pandora">Pandora, Stitcher, & SiriusXM via SimpleCast</a>
 6. <a href="https://podcasters.iheart.com/">iHeart Radio</a>
 
+<hr>
 
-Enjoy!
+# I hope you enjoy!
+
 If you have any questions, comments, or concerns about the Podcast Template for GitHub Pages: please contact rambling.bramble.blog@gmail.com or comment/message me via GitHub (I will be slow to respond, but will respond...eventually).
