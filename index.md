@@ -14,12 +14,13 @@ title: {{site.title}}
 <section>
   <h3>RSS Feed Links</h3>
   <p>
-    <a href="">Direct RSS Feed</a><br>
+    <a href="">Direct RSS Feed</a><br><br>
     <a href="">Pocket Casts RSS Feed</a><br>
+    <a href="">Podcast Index</a><br>
     <a href="">Apple Podcasts</a><br>
     <a href="">Amazon Music</a><br>
-    <a href="">Pandora Music</a><br>
-    <a href="">Podcast Index</a><br>
-    
+    <a href="">Pandora</a><br>
+    <a href="">Stitcher</a><br>
+    <a href="">iHeart Radio</a><br>    
   </p>
 </section>
