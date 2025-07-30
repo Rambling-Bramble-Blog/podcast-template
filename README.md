@@ -55,6 +55,8 @@ This is intended to be used with The Internet Archive (https://archive.org/)
 
 # Using This Template
 
+Create a new repository from the template (note: do not "Fork").
+
 Files in need of edits:
 - everything in /_episodes
 - /assets/logo.jpeg (If you change the file name or type from "logo.jpeg" you will need to make furthere edits to "".)
