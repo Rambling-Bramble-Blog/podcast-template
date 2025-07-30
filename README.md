@@ -1,4 +1,5 @@
 Your repository name should be YOUR-GITHUB-USER-NAME.github.io
+More about github pages can be found here: https://pages.github.com/
 
 This is a GitHub Pages Template used for supporting a podcast.
 This idea and the base code came from ChatGPT, but has been edited to actually work.
