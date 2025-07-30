@@ -59,11 +59,28 @@ Files in need of edits:
 - index.md (This is your main page!)
 - LICENSE.md (Add your specific information, but keep in mind what the audio file may be licensed under--especially if using the InternetArchive for file hosting.)
 
+
+### Editing Your Episode Files
+
+1. Change "title" to your episode title.
+2. Change "date" to your release date (i.e. current date) 
+3. "audio_url" should be the link you the specific episode's MP3 file on the Internet Archive.
+<img width="1151" height="395" alt="Which file?" src="https://github.com/user-attachments/assets/5f1efb79-24ef-41fe-8e3a-853b7568efc2" />
+  a. You will need to copy the link address for the MP3 file (right click to copy) (I recommend an internet search if you do not know how to get the right-click menu up for your specific device)
+<img width="1164" height="597" alt="Copy Link Address" src="https://github.com/user-attachments/assets/6bf02fe9-898c-4502-8d19-4d57325cf73d" />
+  b. Paste the copied link between the double quotation marks ("").
+6. "audio_size" is your file size converted to **binary** bytes (for MB to bytes: mutiple your file size by 1048576 and round to the nearest whole number) (<a href="https://www.gigacalculator.com/converters/convert-mb-to-bytes.php#table">a conversion chart</a>) 
+7. "duration" is the length of your episode in minutes and seconds.
+8. The "body" of the page (everything after the second "---"): Put whatever you want here and it will appear as your episode description. Keep in mind, the syling (html and md) will be removed on the streaming platforms, so extra spaces (" ") or pipes/vertical bars and spaces (" | ") work well to create separation. (I chose to use extra spaces.)
+
+
 ## Submitting your Podcasts!
 
 Conduct an internet search for "Podcast Databases" and select the ones you wish to submit to.
 
-Here are a few options:
+Your RSS feed link is the "feed.xml" file. Right click to copy the file address.
+
+Here are a few options for places to submit your podcast (I suggest reading the Terms, as I am not vetting these for you):
 1. <a href="https://podcasters.apple.com/">Apple Podcasts</a>
 2. <a href="https://pocketcasts.com/submit/">Pocket Casts</a>
 3. <a href="https://podcastindex.org/add">Podcast Index</a>
