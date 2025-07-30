@@ -2,7 +2,7 @@ More about github pages can be found here: https://pages.github.com/
 
 Please note, I am figuring this out mostly as I go, but I want others to have the same opportunity of having a free podcast!
 
-## About
+# About
 
 This is a GitHub Pages Template used for supporting a podcast.
 This idea and the base code came from ChatGPT, but has been edited to actually work.
@@ -10,7 +10,7 @@ Further files have been added as examples on how to use this template.
 
 This is intended to be used with The Internet Archive (https://archive.org/)
 
-## Using the Internet Archive
+# Using the Internet Archive
 
 1. Create an account on archive.org (Found in upper-right corner).
 
@@ -30,7 +30,7 @@ This is intended to be used with The Internet Archive (https://archive.org/)
 
 <img width="1020" height="796" alt="Upload Process" src="https://github.com/user-attachments/assets/0e3334de-cbec-4910-a0a4-54a47e4e9b9e" />
 
-### Internet Archive Upload Process in more detail
+## Internet Archive Upload Process in more detail
 
 <img width="1020" height="796" alt="Upload Process" src="https://github.com/user-attachments/assets/0e3334de-cbec-4910-a0a4-54a47e4e9b9e" />
 
@@ -49,7 +49,7 @@ This is intended to be used with The Internet Archive (https://archive.org/)
 
 11. More Options (I put nothing here, but use it if you like!)
 
-## Using This Template
+# Using This Template
 
 Files in need of edits:
 - everything in /_episodes
@@ -60,7 +60,7 @@ Files in need of edits:
 - LICENSE.md (Add your specific information, but keep in mind what the audio file may be licensed under--especially if using the InternetArchive for file hosting.)
 
 
-### Editing Your Episode Files
+## Editing Your Episode Files
 
 1. Change "title" to your episode title.
 2. Change "date" to your release date (i.e. current date) 
@@ -74,7 +74,7 @@ Files in need of edits:
 8. The "body" of the page (everything after the second "---"): Put whatever you want here and it will appear as your episode description. Keep in mind, the syling (html and md) will be removed on the streaming platforms, so extra spaces (" ") or pipes/vertical bars and spaces (" | ") work well to create separation. (I chose to use extra spaces.)
 
 
-## Submitting your Podcasts!
+# Submitting your Podcasts!
 
 Conduct an internet search for "Podcast Databases" and select the ones you wish to submit to.
 
